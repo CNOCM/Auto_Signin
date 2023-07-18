@@ -21,4 +21,4 @@ jobs:
         env:
           BARK_URL: ${{ secrets.BARK_URL }}
           BDUSS: ${{ secrets.BDUSS}}
-        run: python Tieba_Sign_in.py
+        run: python Tieba/Tieba_Sign_in.py
