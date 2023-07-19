@@ -27,9 +27,8 @@ def log(msg, level='info'):
     elif level == 'error':
         logging.error(msg)
 
+
 # 获取tbs
-
-
 def get_tbs():
     url = "https://tieba.baidu.com/dc/common/tbs"
     log("开始获取tbs", level='info')
